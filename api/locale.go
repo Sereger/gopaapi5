@@ -36,6 +36,8 @@ const (
 	UnitedKingdom Locale = "UK"
 	// UnitedStates Locale for United States
 	UnitedStates Locale = "US"
+	// SaudiArabia Locale for Saudi Arabia
+	SaudiArabia Locale = "SA"
 )
 
 // hostRegionMarketplace holds host, region and marketplace
@@ -63,6 +65,7 @@ var localeHostRegionMarketplaceMap = map[Locale]hostRegionMarketplace{
 	UnitedArabEmirates: {"webservices.amazon.ae", "eu-west-1", "www.amazon.ae"},
 	UnitedKingdom:      {"webservices.amazon.co.uk", "eu-west-1", "www.amazon.co.uk"},
 	UnitedStates:       {"webservices.amazon.com", "us-east-1", "www.amazon.com"},
+	SaudiArabia:        {"webservices.amazon.sa", "eu-west-1", "www.amazon.sa"},
 }
 
 // Host returns host for a locale
